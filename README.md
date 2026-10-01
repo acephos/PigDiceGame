@@ -1,8 +1,7 @@
-# PigDiceGame
-A simple browser based game built using JavaScript.
+# Pig Dice Game
 
-# Game Details
-It is a simple PvP dice game where the Players have to roll the dice till they either decide to Hold, in which case their current cumulative score is added to their overall score, or Roll a 1 in which case their current score drops to 0. In both the cases the control shifts to the other player. This continues till one of the players attains the overall score of 20.
+Historical two-player browser exercise based on Jonas Schmedtmann's JavaScript course.
 
-# Get Started
-You can simply run the index.html file
+Roll to accumulate points for the current turn. Rolling 1 discards the turn points and switches players. Hold adds the turn points to the player's total and switches turns. The first player to reach **20 points** wins. The final score and winner stay visible until New game; rolling and holding stop after a win.
+
+Open `index.html` directly or run `python3 -m http.server 8000`. This is a local learning game with no account or persistent score storage.
